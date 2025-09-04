@@ -15,6 +15,9 @@ public:
 
     bool tem_aresta(Aresta e);
     void insere_aresta(Aresta e);
+    void remove_aresta(Aresta e);
+    void imprime();
+    void free();
 
 private:
     int num_vertices_;
