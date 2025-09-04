@@ -19,6 +19,9 @@ public:
     void imprime();
     void free();
 
+    bool eh_passeio(std::vector<int> &seq);
+    bool eh_caminho(std::vector<int> &seq);
+
 private:
     int num_vertices_;
     int num_arestas_;
